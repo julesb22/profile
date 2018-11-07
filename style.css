@@ -1,0 +1,122 @@
+body {
+  background-color: #1E1159;
+  background-image: url(/images/background.png);
+  background-repeat: no-repeat;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+
+}
+
+p {
+font-family: 'Nunito', sans-serif;
+font-size: 15px;
+}
+
+h1 {
+  color: rgb(0,0,0) ;
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+@media (max-width: 2000px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  .books {
+  width: 200px;
+  height: 310px;
+}
+}
+@media (max-width: 1300px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 570px;
+    margin: 0 auto;
+  }
+
+  .books {
+  width: 200px;
+  height: 310px;
+}
+}
+@media (max-width: 800px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .books {
+    width: 150px;
+    height: 200px;
+  }
+
+}
+
+.card {
+    background: rgb(245,245,245);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow:0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.text-center {
+    text-align: center;
+}
+
+#profile-pic {
+  border-radius: 50%;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 25px;
+}
+
+
+a {
+text-decoration: none;
+color: rgb(0,0,0) ;
+}
+
+h2 {
+border-bottom: 3px solid #0084F9;
+    box-shadow: inset 0 -8px 0 #0084F9;
+    transition: background .2s ease;
+    height: 33px;
+    font-size: 29px;
+    display: inline-block;
+    font-size: 22px;
+    color: rgb(0,0,0);
+    font-weight: 700;
+}
+
+
+.book-description {
+  padding: 20px;
+  margin: 30px;
+}
+@media (max-width: 800px) {
+  /* For a screen < 540px, this CSS will be read */
+.book-description {
+    padding: 10px;
+    margin: 10px 25px;
+
+  }
+}
+
+.fa-smile{
+  color: #FFD031;
+}
+
+
+
+
